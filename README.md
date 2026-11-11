@@ -79,6 +79,14 @@ The `data/` and `outputs/` directories are excluded from Git tracking.
 5. Select a Python environment with the required dependencies installed.
 6. Execute the notebook cells in order.
 
+## Visualizations
+
+### Gradient Boosting — Feature Correlation Matrix
+
+The correlation matrix illustrates the relationships between the nine features retained by the Gradient Boosting model.
+
+![Gradient Boosting Correlation Matrix](visualizations/corr_gradient_boosting_full_square.png)
+
 ## Evaluation Note
 
 Threshold tuning and model evaluation should be interpreted with care. The current notebook uses the test set during threshold selection, which can introduce test-set leakage and make the reported performance optimistic. Independent validation is needed for a more reliable estimate of generalization performance.
