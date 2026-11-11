@@ -93,6 +93,12 @@ The following chart compares the final Gradient Boosting and LightGBM models acr
 
 ![NAFLD Model Performance Comparison](visualizations/nafld_model_performance_comparison.png)
 
+### LightGBM — Feature Correlation Matrix
+
+The correlation matrix illustrates the relationships between the 12 features retained by the LightGBM model.
+
+![LightGBM Correlation Matrix](visualizations/corr_lightgbm_full_square.png)
+
 ## Evaluation Note
 
 Threshold tuning and model evaluation should be interpreted with care. The current notebook uses the test set during threshold selection, which can introduce test-set leakage and make the reported performance optimistic. Independent validation is needed for a more reliable estimate of generalization performance.
