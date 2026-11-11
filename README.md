@@ -87,6 +87,12 @@ The correlation matrix illustrates the relationships between the nine features r
 
 ![Gradient Boosting Correlation Matrix](visualizations/corr_gradient_boosting_full_square.png)
 
+### Model Performance Comparison
+
+The following chart compares the final Gradient Boosting and LightGBM models across precision, recall, F1-score, and F2-score.
+
+![NAFLD Model Performance Comparison](visualizations/nafld_model_performance_comparison.png)
+
 ## Evaluation Note
 
 Threshold tuning and model evaluation should be interpreted with care. The current notebook uses the test set during threshold selection, which can introduce test-set leakage and make the reported performance optimistic. Independent validation is needed for a more reliable estimate of generalization performance.
